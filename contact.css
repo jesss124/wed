@@ -1,0 +1,78 @@
+/* General styles */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd1d1; /* Light gray background */
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: #cfc2c2; /* Dark background for header */
+    color: #fff;
+    padding: 75px;
+    text-align: center;
+}
+.header-content .logo {
+    font-size: 3em;
+    margin-bottom: 1em;
+    text-align: center;
+    color: rgb(3, 168, 66)
+}
+  
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+  
+nav ul li {
+    display: inline;
+    margin: 1em;
+    text-align: center;
+}
+  
+nav ul li a {
+    color: rgb(221, 5, 23);
+    text-decoration: none;
+    font-weight: lighter;
+    text-align: center;
+}
+  
+.header-text {
+    margin-top: auto;
+    margin-bottom: 1em;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-align: center;
+}
+
+/* Main section styles */
+.about-us {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us p {
+    margin: 1px 0;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #cfc2c2; /* Dark background for footer */
+    color: #fff;
+    padding: 75px;
+    text-align: center;
+}

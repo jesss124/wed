@@ -1,0 +1,169 @@
+/* General styles */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bdb9b9; /* Light gray background */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.background-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+  }
+  
+  .background-jpg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #bdb9b9(166, 170, 166, 0.5);
+    z-index: 1;
+  }
+  
+  .header-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 2em;
+  }
+  
+  .header-content .logo {
+    font-size: 3em;
+    margin-bottom: 1em;
+    color: rgb(7, 138, 2);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 1.5em
+  }
+  
+  nav ul li a {
+    color: rgb(221, 5, 23);
+    text-decoration: none;
+    font-weight: lighter;
+  }
+  
+  .header-text {
+    margin-top: auto;
+    margin-bottom: 1em;
+    color: rgb(19, 238, 12);
+  }
+  
+  .header-text h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+    color: rgb(11, 214, 4);
+  }
+  
+  .header-text p{
+    font-size: 1.5em;
+    color: rgb(18, 219, 11);
+  }
+  
+  .header-text{
+    margin-top: auto;
+    margin-bottom: 5em;
+    color: rgb(19, 231, 12);
+  }
+  
+  .header-text h1{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: rgb(17, 233, 9);
+  }
+  
+  .header-text p{
+    font-size: 1.5em;
+    color: rgb(21, 226, 14);
+  }
+  .header-text .btn:hover{
+    background-color: #05963c;
+  }
+
+/* Header styles */
+header {
+    background-color: #c9bfbf;; /* Dark background for header */
+    color: #e6e0e0;
+    padding: 10px;
+    text-align: center;
+    color: #161616; /* Dark text color */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #161616; /* Dark text color */
+}
+
+/* Main section styles */
+.tips {
+    padding: 50px 0;
+}
+
+.tips h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #068075; /* Dark text color */
+}
+
+.tip {
+    background-color: #fff; /* White background for tip */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(146, 131, 131, 0.1); /* Shadow effect */
+    margin-top: 15px;
+}
+
+.tip h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.tip p {
+    margin: 5px 0;
+    margin-bottom: 5em;
+}
+/* Styling for the "Get Started" button */
+.header-text .btn {
+    background-color: #08d82a;
+    color: white;
+    padding: 0.5 1.5em;
+    text-decoration: none;
+    font-size: 1.25em;
+    border-radius: 5px;
+    margin-top: 5em;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+/* Footer styles */
+footer {
+    background-color: #c9bfbf; /* Dark background for footer */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
